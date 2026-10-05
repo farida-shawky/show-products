@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  transition: transform 0.4s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.image {
+  height: 200px;
+  object-fit: contain;
+}
+.description {
+  height: 70px;
+  overflow: hidden;
+}
